@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient(60deg,green,yellow);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container h2{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    color: rgb(68, 9, 123);
+}
+.container .countdown-box{
+    height: 30%;
+    width: 50%;
+    border: 2px solid rgb(82, 54, 236);
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+}
+/* boxes style */
+.box1{
+    height: 54%;
+    width:17%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.box1 input{
+    height: 80%;
+    width: 98%;
+    font-size:2.5rem;
+    text-align: center;
+    color: blueviolet;
+    font-weight: 600;
+    border: transparent;
+    border-radius: 7%;
+}
+.box1 label{
+    font-size: 1.4rem;
+    font-weight: 550;
+    color: #00246B;
+}
